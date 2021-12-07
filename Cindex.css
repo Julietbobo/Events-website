@@ -1,0 +1,57 @@
+*  {margin: 0;
+    padding: 0;
+   }
+
+body {background-image: url("images/ice3.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 10vh;
+      width: 10vw;
+      }
+
+.page {display: inline;
+       text-decoration: underline;
+       font-size: 50px;
+       color: white;
+       }
+
+.ribbon {position: fixed;
+         background-color: #001f3f;
+         opacity: 0.5;
+         width: 100vw;
+         height: 10vh;
+         }
+
+nav {float: right;
+     position: relative;
+     top: 20px;
+     left: -400px;
+     }
+
+nav li {display: inline;
+        padding-left: 50px;
+        font-size: 20px;
+       }
+
+nav li a{list-style-type: none;
+        text-decoration: none;
+        color: white;
+       }
+
+nav li a:hover {opacity: 0.5;
+                color:#00b0ff;
+       }
+
+.gallery {width: 70vw;
+          height: 40vh;
+          margin: 200px auto;
+       }
+
+.gallery img {width: 25vw;
+              height: 20vh;
+              padding: 30px 30px;
+              border-radius: 10%;
+              
+       }
+
+

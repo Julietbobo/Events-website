@@ -1,0 +1,362 @@
+*  {margin: 0;
+    padding: 0;
+   }
+
+body {background-image: url("images/marble.jpg");
+      background-size: cover;
+      height: 10vh;
+      }
+
+img {width: 210px;
+     height: 200px;
+}
+
+@keyframes beach {
+     0%{background-image: url("images/random.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:200%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+        opacity: 1;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 0;
+        display: none;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }  
+}
+
+@keyframes sundowner {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 1;
+        background-image: url("images/sundowner.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-500%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+        z-index: 1;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes baby {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 1;
+        background-image: url("images/baby reveal.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-1200%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes bonfire {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 1;
+        background-image: url("images/bonfire.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top: -1900%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes grad{
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 1;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 1;
+       background-image: url("images/grad.jpg"); 
+       background-size: cover;
+       background-repeat: no-repeat;
+       width:50vw;
+       height: 70vh;
+       position: relative;
+       top:-2600%;
+       left: 30%;
+       border-radius: 20px;
+       box-shadow: 10px 10px 15px 20px white;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes anniversary {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 1;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 1;
+        background-image: url("images/anniversary.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-3300%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes birthday {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 1;
+      background-image: url("images/birthday.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-4000%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes christmas{
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 1;
+        background-image: url("images/christmas.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-4700%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+   100%{opacity: 0;
+       }
+     
+}
+
+@keyframes random {
+     0%{
+        opacity: 0;
+       }
+    12.5%{opacity: 0;
+       }
+    25%{opacity: 0;
+       }
+   37.5%{opacity: 0;
+       }
+   50%{opacity: 0;
+       }
+   62.5%{opacity: 0;
+       }
+   75%{opacity: 0;
+       }
+   87.5%{opacity: 0;
+       }
+   100%{opacity: 1;
+       background-image: url("images/beach1.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:50vw;
+        height: 70vh;
+        position: relative;
+        top:-5400%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 20px white;
+       }
+     
+}
+
+.beach {animation: beach 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+
+.sundowner {animation: sundowner 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.baby {animation: baby 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.bonfire {animation: bonfire 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.grad {animation: grad 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.anniversary {animation: anniversary 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.birthday {animation: birthday 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.christmas {animation: christmas 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+.random {animation: random 30s ease-in-out infinite;
+       width:50vw;
+       height: 70vh;
+       }
+
+ul {position: relative;
+    top: -6100%;
+    
+   }
+
+ul li {padding-left: 60px;
+       font-size: 50px;
+       line-height: 60px;
+       font-family: 'Satisfy', cursive;
+       color: #2565ae;
+       text-shadow: 0px 2px 2px cyan;
+      }
+
+
